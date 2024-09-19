@@ -1,16 +1,17 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-1. declare counter variable and assign 0
-2. declare winningNumber variable;
-3. declare userInput variable
-4. create function Generate to generate number between one and ten then store said number in variable winningNumber
-5. create function CheckCounter to check if counter is greater than three and if it is print "You lose try again!" else continue
-6. create function InputNumber to take user input between one and ten and assign to userInput then add one to counter
-7. create function CheckGuess to check if guess is equal to winningNumber if so print "You win" then restart program else print "Try again" then continue program
-8. call Generate function
-9. call InputNumber
-10 call CheckGuess
-11. call CheckCounter
-12. call InputNumber
-13. call CheckGuess
+ declare counter variable and assign 0
+ declare winningNumber variable;
+ declare userInput variable
+ 
+ create function Generate to generate number between one and ten then store said number in variable winningNumber
+ create function InputNumber to take user input between one and ten and assign to userInput then add one to counter
+ create function CheckGuess to check if guess is equal to winningNumber if so print "You win" then restart program else print "Try again" then continue program
+ 
+ call Generate function
+ create while loop
+        while counter < 3
+        call userInput
+        call CheckGuess
+    End while loop

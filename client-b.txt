@@ -1,4 +1,52 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+//* x is north south coordinates on grid(store shelves)
+    y is east west coordinates
+    grid starts at (1,1) in corner furthest north and furthest west (top left) *//
 
+
+- declare user location variables named (userLocationX, userLocationY) create input parameters
+- declare item location (itemLocationX, itemLocationY) create parameters based on stores size
+
+- have user input customers coordinates (userLocationX, userLocationY)
+- have user input the location they wish to visit as (itemLocationX, itemLocationY)
+
+  while
+   userLocationX is not equal to itemLocationX
+    
+    if
+        userLocationX is greater than itemLocationX
+        have customer move one section north
+    
+    else if
+        userLocationX is less than itemLocationX
+        have customer move one section south
+    
+    else
+     continue program
+
+  
+  while
+   userLocationY is not equal to itemLocationY
+
+    if
+        userLocationY is greater than itemLocationY
+        have customer move one section west
+    
+    else if
+
+        userLocationY is less than itemLocationY
+        have customer move one section east
+
+    else
+
+        continue program
+    
+
+        end while loop
+
+    have program print "You have reached your destination!"
+
+
+  
